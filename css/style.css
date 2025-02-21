@@ -195,7 +195,7 @@ nav {
     transition: 0.8s all;
 }
 
-.profile-section:hover .icon-text .profile-mega-menue
+.profile-section:hover  .profile-mega-menue
 {
     opacity: 1;
     visibility: visible;
