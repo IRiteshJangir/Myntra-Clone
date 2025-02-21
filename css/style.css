@@ -131,7 +131,7 @@ nav {
     padding: 0 12px 0 17px;
     justify-content: center;
     align-items: center;
-    gap: 6px ;
+    gap: 1px;
     position: relative;
 }
 
@@ -163,7 +163,7 @@ nav {
     transition: 0.8s all;
 }
 
-.span-text:hover .profile-mega-menue
+.icon-text .span-text:hover .profile-mega-menue
 {
     opacity: 1;
     visibility: visible;
