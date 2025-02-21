@@ -144,6 +144,184 @@ nav {
     background-size: 1414px 104px;
 }
 
+.profile-section
+
+{
+  width: 194px;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  position: relative;
+
+}
+.icon-text
+{   flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px 0 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px ;
+    /* position: relative; */
+    cursor: pointer;
+}
+
+.icon-text .profile-icon
+{  
+     width: 24px;
+    height: 24px;
+    background-image: url("../image/profile.png");
+    background-position: -299px -58px;
+    background-size: 1414px 104px;
+}
+
+.span-text .profile-mega-menue
+{
+    width: 292px;
+    /* height: 434px; */
+    background-color: #fff;
+    color: #3e4152;
+    border: 1px solid #f5f5f6;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .08);
+    position: absolute;
+    left: -80px;
+    top: 62px;
+    padding: 25px 20px 15px;
+    z-index: 9;
+    opacity: 0;
+    visibility: hidden;
+    /* display: none; */
+    cursor: pointer;
+    transition: 0.8s all;
+}
+
+.profile-section:hover .icon-text .profile-mega-menue
+{
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
+    
+}
+
+.bottom-border
+{
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 90px;
+    width: 58px;
+    border-bottom: 4px solid #f16565 ;
+}
+
+.profile-info
+{   width: 250px;
+    padding-bottom: 2px;
+    /* display: flex; */
+   
+}
+.profile-title, .infomail
+{
+    font-size: 14px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 10px;
+}
+
+.infomail
+{
+    height: 14px;
+    color: #282c3f;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.login-signup-links
+{
+    width: 100%;
+    padding: 10px 0;
+    /* border: 1px solid #eaeaec ; */
+    padding-right: 80px;
+
+}
+
+
+.profile-title
+{   width: 250px ;
+    font-weight: 700;
+    height: 20px;
+    text-align:start;
+    padding-left: 10px;
+    
+}
+
+.link-btn
+{
+    display: inline-block;
+    border: 1px solid #eaeaec ;
+    padding: 18px 20px;
+    border-radius: 2px;
+    margin: 0 5px 6px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ff3f6c;
+    font-weight: 700;
+}
+
+.link-btn:hover
+{
+    border: 1px solid #ff3f6c;
+}
+
+.link-list
+{   
+    /* display: inline-block; */
+    width: 100%;
+    padding: 10px 0;
+    border-top: 1px solid #eaeaec;
+   /* position: absolute; */
+   display: flex;
+   flex-direction: column;
+   
+
+}
+
+.link-info
+{
+    font-weight: 400;
+    font-size: 14px;
+    color: #3e4152;
+    line-height: 10px;
+    text-align: left;
+    height: 25px;
+    padding: 15px 12px  !important;
+    width: 100%;
+}
+
+.link-info:hover
+{
+   
+    font-weight: 700;
+}
+
+.superscript
+{
+    width: 25px;
+    height: 15px;
+    padding: 2px 9px 6px 2px;
+    background-color: #ff3f6c!important;
+    border: 1px solid #ff3f6c;
+    color: #fff;
+    font-weight: 900;
+    margin: -6px 0 -10px 10px;
+    font-size: 10px;
+    transform: skewX(-10deg);
+    display: inline-block;
+    border-radius: 2px; 
+}
+
+
  .wishlist
 {
     background-size: 1404px 105px;
